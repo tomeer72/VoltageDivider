@@ -21,7 +21,7 @@ parser.add_argument('-u1', metavar='U1', type=float, nargs='?', default=0, help=
 parser.add_argument('-u2', metavar='U2', type=float, nargs='?', default=0, help="Voltage U2")
 parser.add_argument('-e96', action='store_true', help="Series E96 - 1%%")
 parser.add_argument('-t', metavar='T', type=float, nargs='?', default=2.0, help="Tolerance")
-parser.add_argument('-c', metavar='C', type=int, nargs='?', default=10, help="Number of results")
+parser.add_argument('-c', metavar='N', type=int, nargs='?', default=10, help="Number of results")
 parser.add_argument('-f', metavar='%s', nargs='?', default="null", help="File with resistor series")
 
 args = parser.parse_args()
