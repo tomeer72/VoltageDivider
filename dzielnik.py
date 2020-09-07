@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 # set resistor value for voltage divider using resistor value series
-# U1 - napiecie wejsciowe
-# U2 - napiecie wyjsciowe
+# U1 - input voltage
+# U2 - output voltage
 # U1 on result is when U2 is correct
 # U2 on result is when U1 is correct 
 
