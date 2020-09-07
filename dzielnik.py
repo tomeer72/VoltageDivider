@@ -27,7 +27,7 @@ parser.add_argument('-f', metavar='%s', nargs='?', default="null", help="File wi
 args = parser.parse_args()
 
 loc=locale.getlocale(locale.LC_NUMERIC)
-locale.setlocale(locale.LC_NUMERIC,"pl_PL")
+locale.setlocale(locale.LC_NUMERIC,"en_US")
 print( locale.atof("2,14"))
 u1 = float(args.u1)
 u2 = float(args.u2)
