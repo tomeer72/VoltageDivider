@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Its set resistor value for voltage divider using value series
+# set resistor value for voltage divider using resistor value series
 # U1 - napiecie wejsciowe
 # U2 - napiecie wyjsciowe
 # U1 on result is when U2 is correct
@@ -10,7 +10,7 @@ import argparse
 import re
 import os
 import locale
-# from decimal import Decimal
+
 
 TGREEN = '\033[32m'  # Green Text
 TRED = '\033[31m'  # Red Text
