@@ -23,16 +23,13 @@ parser.add_argument('-e96', action='store_true', help="Series E96 - 1%%")
 parser.add_argument('-t', metavar='T', type=float, nargs='?', default=2.0, help="Tolerance")
 parser.add_argument('-c', metavar='C', type=int, nargs='?', default=10, help="Number of results")
 parser.add_argument('-f', metavar='%s', nargs='?', default="null", help="File with resistor series")
-# parser.print_help()
+
 args = parser.parse_args()
 
 loc=locale.getlocale(locale.LC_NUMERIC)
 locale.setlocale(locale.LC_NUMERIC,"en_US")
-print( locale.atof("2,14"))
 u1 = float(args.u1)
 u2 = float(args.u2)
-
-print( os.extsep)
 
 print("U1={}, U2={}".format(u1, u2))
 
