@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-# Program do ustalania wartosci rezystrow dla dzielnika napieciowego
+# Its set resistor value for voltage divider using value series
 # U1 - napiecie wejsciowe
 # U2 - napiecie wyjsciowe
-# wynikowe U1 to napiecie jakie bedzie dla danych rezystorow przy zalozeniu poprawnego U2
-# wynikowe U2 to napiecie jakie bedzie dla danych rezystorow przy zalozeniu poprawnego U1
+# U1 on result is when U2 is correct
+# U2 on result is when U1 is correct 
 
 import argparse
 import re
@@ -107,7 +107,7 @@ else:
         print("Using Table E24")
 
 print("Divider Tolerance: {}%".format(args.t))
-# quit()    
+   
 for index in range(len(ETable)):
     try:
         r2 = float(ETable[ index ])
